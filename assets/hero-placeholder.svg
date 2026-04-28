@@ -1,0 +1,19 @@
+<svg width="640" height="480" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Hero illustration placeholder">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#6C63FF"/>
+      <stop offset="100%" stop-color="#00BFA6"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="480" fill="#F8F9FA"/>
+  <g transform="translate(100,80)">
+    <rect x="0" y="0" width="440" height="320" rx="24" fill="#ffffff" stroke="#e6e8ef"/>
+    <circle cx="120" cy="120" r="64" fill="url(#g)" opacity="0.9"/>
+    <rect x="220" y="84" width="160" height="20" rx="10" fill="#2C2C54" opacity="0.88"/>
+    <rect x="220" y="120" width="120" height="14" rx="7" fill="#6C63FF" opacity="0.7"/>
+    <rect x="48" y="220" width="344" height="10" rx="5" fill="#dfe3ef"/>
+    <rect x="48" y="240" width="280" height="10" rx="5" fill="#dfe3ef"/>
+  </g>
+</svg>
+
+
