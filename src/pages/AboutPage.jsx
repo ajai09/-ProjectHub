@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import CounterMetric from "../components/CounterMetric";
+import profileImage from "../image/pic.png";
 
 function AboutPage() {
   return (
@@ -14,7 +15,10 @@ function AboutPage() {
       <section className="about-content">
         <div className="container about-grid">
           <div className="about-media">
-            <img src="/assets/profile-placeholder.svg" alt="Aloysius Ajai L. profile" />
+            <div className="about-image-frame">
+              <img src={profileImage} alt="Aloysius Ajai L. profile" />
+              <span className="about-image-accent" aria-hidden="true"></span>
+            </div>
           </div>
           <div className="about-text">
             <h2>I'm Aloysius Ajai L., a Front-End Developer</h2>

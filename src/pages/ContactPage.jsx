@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const initialErrors = { name: "", email: "", message: "" };
-const API_URL = "http://localhost:5001/contact";
+const API_URL = "https://projecthub-t02p.onrender.com/contact";
 
 function ContactPage() {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
