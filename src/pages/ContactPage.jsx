@@ -79,7 +79,7 @@ function ContactPage() {
                 <div>
                   <h3>Email</h3>
                   <p>
-                    <a href="mailto:hello@example.com">hello@example.com</a>
+                    <a href="mailto:ajaialoysius04@gmail.com">ajaialoysius04@gmail.com</a>
                   </p>
                 </div>
               </div>
