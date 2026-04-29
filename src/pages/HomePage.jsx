@@ -1,6 +1,9 @@
 import { Link } from "react-router-dom";
 import heroImage from "../image/pic.png";
 
+const GITHUB_URL = "https://github.com/ajai09";
+const LINKEDIN_URL = "https://www.linkedin.com/in/aloysius-ajai-l/";
+
 function HomePage() {
   return (
     <main>
@@ -9,8 +12,8 @@ function HomePage() {
           <div className="hero-text">
             <p className="eyebrow">Hello, I'm</p>
             <h1>Aloysius Ajai L.</h1>
-            <h2 className="profession">Front-End Developer</h2>
-            <p className="subtitle">I design and build modern, fast, and accessible web experiences.</p>
+            <h2 className="profession">Mobile App Developer and Freelancer</h2>
+            <p className="subtitle">I design and build modern, fast, and accessible mobile applications.</p>
             <div className="hero-actions">
               <Link to="/contact" className="btn btn-primary">
                 Hire Me
@@ -25,10 +28,10 @@ function HomePage() {
               <li>Performance-first</li>
             </ul>
             <div className="social-links">
-              <a href="#" aria-label="GitHub">
+              <a href={GITHUB_URL} target="_blank" rel="noreferrer" aria-label="GitHub">
                 🐙
               </a>
-              <a href="#" aria-label="LinkedIn">
+              <a href={LINKEDIN_URL} target="_blank" rel="noreferrer" aria-label="LinkedIn">
                 🔗
               </a>
               <a href="#" aria-label="Twitter">

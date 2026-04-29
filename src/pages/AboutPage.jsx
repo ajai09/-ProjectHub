@@ -21,11 +21,15 @@ function AboutPage() {
             </div>
           </div>
           <div className="about-text">
-            <h2>I'm Aloysius Ajai L., a Front-End Developer</h2>
+            <h2>I'm Aloysius Ajai L., a Mobile App Developer and Freelancer</h2>
             <p>
-              I specialize in building responsive, accessible, and performant web interfaces. With a strong eye for design and a love for clean code, I turn
-              ideas into engaging digital products. I collaborate closely with teams and stakeholders to deliver outcomes that delight users and drive business
-              value.
+              I am a passionate Mobile App Developer and Freelancer with a strong interest in creating innovative and user-friendly applications. I specialize in building modern mobile apps using the latest technologies and best practices.
+            </p>
+            <p>
+              I enjoy solving real-world problems through code and continuously improving my skills to stay updated with industry trends. As a freelancer, I have worked on various projects, delivering efficient and scalable solutions to clients.
+            </p>
+            <p>
+              My goal is to create impactful digital products that provide seamless user experiences and add real value.
             </p>
             <ul className="about-highlights">
               <li>Modern stacks: HTML, CSS, JavaScript, React</li>
