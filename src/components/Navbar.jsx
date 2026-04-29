@@ -27,6 +27,9 @@ function Navbar() {
           <NavLink to="/contact" onClick={() => setOpen(false)}>
             Contact
           </NavLink>
+          <NavLink to="/admin" onClick={() => setOpen(false)}>
+            Admin
+          </NavLink>
         </nav>
 
         <button className="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded={open} onClick={() => setOpen(!open)}>

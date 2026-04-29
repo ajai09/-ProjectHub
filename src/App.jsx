@@ -8,6 +8,7 @@ import AboutPage from "./pages/AboutPage";
 import SkillsPage from "./pages/SkillsPage";
 import ServicesPage from "./pages/ServicesPage";
 import ContactPage from "./pages/ContactPage";
+import AdminPage from "./pages/AdminPage";
 
 function App() {
   const location = useLocation();
@@ -28,6 +29,8 @@ function App() {
       ".metric",
       ".info-card",
       ".contact-form",
+      ".admin-stat",
+      ".admin-message-card",
       ".faq"
     ];
 
@@ -43,7 +46,7 @@ function App() {
     document.querySelectorAll(".hero-media, .about-media").forEach((el) => {
       el.setAttribute("data-reveal", "right");
     });
-    document.querySelectorAll(".feature-card, .skill-card, .service-card, .metric, .info-card, .faq").forEach((el) => {
+    document.querySelectorAll(".feature-card, .skill-card, .service-card, .metric, .info-card, .admin-stat, .admin-message-card, .faq").forEach((el) => {
       el.setAttribute("data-reveal", "zoom");
     });
 
@@ -72,6 +75,7 @@ function App() {
         <Route path="/skills" element={<SkillsPage />} />
         <Route path="/services" element={<ServicesPage />} />
         <Route path="/contact" element={<ContactPage />} />
+        <Route path="/admin" element={<AdminPage />} />
       </Routes>
       <Footer />
     </>
