@@ -8,7 +8,7 @@ function AboutPage() {
       <section className="page-hero small">
         <div className="container">
           <h1>About Me</h1>
-          <p>Passionate about crafting beautiful, user-centric web apps.</p>
+          <p>Passionate about crafting beautiful, user-centric mobile apps.</p>
         </div>
       </section>
 
