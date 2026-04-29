@@ -32,7 +32,7 @@ function AboutPage() {
               My goal is to create impactful digital products that provide seamless user experiences and add real value.
             </p>
             <ul className="about-highlights">
-              <li>Modern stacks: HTML, CSS, JavaScript, React</li>
+              <li>Modern stacks: HTML, CSS, JavaScript,React,Swift</li>
               <li>Accessibility-first and mobile-first mindset</li>
               <li>Performance optimization and best practices</li>
             </ul>

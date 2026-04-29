@@ -90,7 +90,7 @@ function ContactPage() {
                 <div>
                   <h3>Social</h3>
                   <div className="contact-social-links">
-                    <a href={LINKEDIN_URL} target="_blank" rel="noreferrer" aria-label="LinkedIn">
+                    <a href="https://www.linkedin.com/in/aloysius-ajai-05128a2a5/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
                       <svg viewBox="0 0 24 24" aria-hidden="true">
                         <path d="M6.94 8.86H3.78v10.1h3.16V8.86ZM5.36 4a1.83 1.83 0 1 0 0 3.66 1.83 1.83 0 0 0 0-3.66Zm13.86 9.48c0-3.05-1.63-4.47-3.8-4.47a3.27 3.27 0 0 0-2.96 1.63h-.04V8.86H9.4v10.1h3.16v-5c0-1.32.25-2.6 1.88-2.6 1.61 0 1.63 1.5 1.63 2.68v4.92h3.16v-5.48Z" />
                       </svg>
