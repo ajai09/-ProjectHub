@@ -5,7 +5,6 @@ import mongoose from "mongoose";
 import { fileURLToPath } from "node:url";
 import Contact from "./models/Contact.js";
 import nodemailer from "nodemailer";
-import validator from "validator";
 
 dotenv.config({
   path: fileURLToPath(new URL("./.env", import.meta.url)),
