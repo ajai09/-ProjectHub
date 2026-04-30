@@ -2,7 +2,6 @@ import { useState } from "react";
 
 const initialErrors = { name: "", email: "", message: "" };
 const API_URL = "https://projecthub-t02p.onrender.com/contact";
-const LINKEDIN_URL = "https://www.linkedin.com/in/aloysius-ajai-l/";
 
 function ContactPage() {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
@@ -60,10 +59,16 @@ function ContactPage() {
 
   return (
     <main>
-      <section className="page-hero small">
-        <div className="container">
-          <h1>Contact</h1>
-          <p>Have a project in mind? Let's talk.</p>
+      <section className="page-hero small contact-hero">
+        <div className="container contact-hero-content">
+          <div>
+            <p className="eyebrow">Start a conversation</p>
+            <h1>Let's build something useful.</h1>
+            <p>Tell me about your app, website, or idea and I will get back to you soon.</p>
+          </div>
+          <a className="contact-hero-link" href="mailto:ajaialoysius04@gmail.com">
+            ajaialoysius04@gmail.com
+          </a>
         </div>
       </section>
 
@@ -71,6 +76,7 @@ function ContactPage() {
         <div className="container contact-grid">
           {/* LEFT SIDE */}
           <div className="contact-info">
+            <span className="availability-badge">Available for freelance work</span>
             <h2>Get in touch</h2>
             <p>Fill out the form and I will get back to you within 24-48 hours.</p>
 
@@ -116,6 +122,11 @@ function ContactPage() {
 
           {/* RIGHT SIDE FORM */}
           <form className="contact-form" onSubmit={handleSubmit} noValidate>
+            <div className="contact-form-head">
+              <h2>Send a message</h2>
+              <p>Share a few details and I will reply with next steps.</p>
+            </div>
+
             {/* NAME */}
             <div className="form-field">
               <label>Name</label>
